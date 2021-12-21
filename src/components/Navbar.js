@@ -1,19 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import { Button } from './Button';
 import './Navbar.css';
 
 function Navbar() {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-
-    const [button, setButton] = useState(true);
-    const showButton = () => {
-        window.innerWidth <= 960 ? setButton(false) : setButton(true);
-    }
-    window.addEventListener('resize', showButton);
-    useEffect(() => {showButton()}, [])
     
     return (
         <nav className="navbar">
@@ -38,11 +30,15 @@ function Navbar() {
                         <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>Contact</Link>
                     </li>
                     <li className='nav-item-mobile'>
-                        <Link to='/contact' className='nav-links-mobile' onClick={closeMobileMenu}>Email</Link>
+                        <a href="mailto:choihwany@naver.com" className='email-mobile'>EMAIL</a>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>EMAIL</Button>}
+                <a href ="mailto: abc@example.com" className='email-web'>EMAIL</a>
             </div>
+            <ul className={click ? 'nav-lang active' : 'nav-lang'}>
+                <li className='nav-lang-item'>EN</li>
+                <li className='nav-lang-item'>KR</li>    
+            </ul> 
         </nav>
     )
 }
