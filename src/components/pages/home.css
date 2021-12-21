@@ -1,0 +1,28 @@
+.home {
+    font-size: 3rem;
+    height: 91.5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.home-text {
+    color: ivory;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: auto 50px;
+}
+
+video {
+    display: flex;
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    order: 2;
+}

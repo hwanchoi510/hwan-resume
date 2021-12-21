@@ -19,19 +19,25 @@
 }
   
 .navbar-logo {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
+    color: #868686;
+    justify-self: flex-start;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
     align-items: center;
+    white-space: nowrap;
+}
+
+.navbar-logo:hover {
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
 }
   
-.fa-typo3 {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
+.fa-cookie-bite {
+    margin-right: 1rem;
+    font-size: 2.5rem;
 }
   
 @media screen and (min-width: 960px) {
@@ -52,7 +58,7 @@
     }
       
     .nav-links {
-        color: #6b6b6b;
+        color: #868686;
         display: flex;
         align-items: center;
         text-decoration: none;
@@ -63,7 +69,7 @@
     .nav-links:hover {
         color: #fff;
         border-bottom: 4px solid #fff;
-        transition: all 0.2s ease-out;
+        transition: all 0.2s ease-in;
     }
       
     .nav-links-mobile {
@@ -98,7 +104,7 @@
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
-        justify-content: start;
+        justify-content: flex-start;
     }
 
     .nav-menu.active {
@@ -109,7 +115,7 @@
     }
 
     .nav-links {
-        color: #6b6b6b;
+        color: #868686;
         text-align: center;
         padding: 2rem;
         width: 100%;
@@ -119,7 +125,7 @@
     }
 
     .nav-links:hover {
-        background-color: #6b6b6b;
+        background-color: #868686;
         color: #fff;
         border-radius: 0;
     }
