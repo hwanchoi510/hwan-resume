@@ -8,6 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    box-shadow: 0 5px 10px 5px #0e0e0e;
 }
 
 .navbar-container {
@@ -31,7 +32,7 @@
 }
 
 .navbar-logo:hover {
-    color: #fff;
+    color: ivory;
     cursor: pointer;
     transition: all 0.3s ease-in;
 }
@@ -68,7 +69,7 @@
     }
       
     .nav-links:hover {
-        color: #fff;
+        color: ivory;
         border-bottom: 4px solid #fff;
         transition: all 0.2s ease-in;
     }
@@ -99,7 +100,7 @@
     }
 
     .nav-lang-item:hover {
-        color: #fff;
+        color: ivory;
         border-bottom: 1px solid #fff;
         transition: all 0.2s ease-in;
     }
@@ -133,7 +134,7 @@
         display: flex;
         flex-direction: column;
         top: 80px;
-        height: 80vh;
+        height: 90vh;
         width: 100%;
         position: absolute;
         left: -100%;
@@ -161,7 +162,7 @@
 
     .nav-links:hover {
         background-color: #868686;
-        color: #fff;
+        color: ivory;
         border-radius: 0;
     }
 
@@ -201,7 +202,7 @@
     }
 
     .nav-lang-item:hover {
-        color: #fff;
+        color: ivory;
         transition: all 0.2s ease-in;
     }
 
@@ -216,12 +217,12 @@
     }
 
     .fa-times {
-        color: #fff;
+        color: ivory;
         font-size: 2rem;
     }
 
     .fa-bars {
-        color: #fff;
+        color: ivory;
     }
 
     .email-mobile {
@@ -240,7 +241,7 @@
     }
     
     .email-mobile:hover {
-        background: #fff;
+        background: ivory;
         transition: all 0.3s ease-in 
     }
 }
