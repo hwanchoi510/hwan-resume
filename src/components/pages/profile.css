@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    color: #868686;
+    color: var(--text-color);
     box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
     overflow: hidden;
@@ -45,11 +45,11 @@
 
 .profile.links.list a {
     text-decoration: none;
-    color: #868686;
+    color: var(--text-color);;
 }
 
 .profile.links.list a:hover{
-    color: #ffffff;
+    color: var(--hover-color);
     transition: all 0.5s ease;
 }
 

@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    color: #868686;
+    color: var(--text-color);
     box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
 }
@@ -16,7 +16,7 @@
     z-index: 2;
     align-items: center;
     position: fixed;
-    background: #141414;
+    background: var(--sub-menu-color);
 }
 
 .project.menu.list h1 {

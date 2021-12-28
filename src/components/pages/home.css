@@ -12,7 +12,7 @@
 }
 
 .home-text {
-    color: rgb(158, 158, 158);
+    color: var(--text-color);
     display: flex;
     width: 60%;
     flex-direction: column;

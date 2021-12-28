@@ -2,14 +2,13 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
     display: flex;
-    color: #868686;
-    background: #262626;
+    background: var(--main-bg-color);
     height: 90vh;
     width: 100%;
 `
 
 export const InfoWrapper = styled.div`
-    background: #afafaf;
+    background: var(--card-color);
     display: flex;
     z-index: 0;
     height: 70vh;
@@ -19,7 +18,7 @@ export const InfoWrapper = styled.div`
     padding: 24px;
     justify-content: center;
     border-radius: 60px;
-    box-shadow: 0 0 20px 10px rgb(0, 0, 0);
+    box-shadow: 0 0 20px 10px var(--shadow-color);
 `
 
 export const ImgWrapper = styled.div`
@@ -45,7 +44,7 @@ export const TextWrapper = styled.div`
 `
 
 export const ProjectType = styled.p`
-    color: #262626;
+    color: var(--card-text-color);
     font-size: 1.5rem;
     line-height: 16px;
     font-weight: 700;
@@ -57,16 +56,16 @@ export const ProjectTitle = styled.h1`
     font-size: 4rem;
     line-height: 4rem;
     font-weight: 600;
-    color: #262626;
+    color: var(--card-text-color);
 `
 
 export const ProjectCode = styled.p`
-    color: #262626;
+    color: var(--card-text-color);
     font-size: 1.5rem;
 `
 
 export const ProjectDesc = styled.p`
-    color: #262626;
+    color: var(--card-text-color);
     font-size: 1rem;
     padding-top: 24px;
     padding-bototm: 24px;
@@ -79,7 +78,7 @@ export const Addresses = styled.div`
 `
 
 export const Address = styled.a`
-    color: #262626;
+    color: var(--card-text-color);
     font-size: 1rem;
     text-decoration: none;
     margin-right: auto;
@@ -89,7 +88,7 @@ export const Address = styled.a`
     }
 
     &:hover {
-        color: #fff;
+        color: var(--card-hover-color);
         transition: all 0.5s ease;
     }
 `

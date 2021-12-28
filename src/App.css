@@ -6,8 +6,21 @@
   font-family: Consolas, 'Courier New', monospace;
 }
 
+:root {
+  --main-bg-color: #5256bc;
+  --main-menu-color: #3a3e98;
+  --sub-menu-color: #527cbc;
+  --card-color: #4ab1d8;
+  --card-text-color: #3a3e98;
+  --card-hover-color: #bce6ff;
+  --text-color: #bce6ff;
+  --hover-color: #1ca7ec;
+  --shadow-color: #120c6e;
+
+}
+
 html {
-  background: #242424;
+  background: var(--main-bg-color); /* #868686 */
   height: 100%;
   scroll-behavior: smooth;
 }

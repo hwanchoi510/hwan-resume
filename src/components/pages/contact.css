@@ -2,7 +2,7 @@
     flex-grow: 1;
     width: 100%;
     display: flex;
-    color: #868686;
+    color: var(--text-color);
     box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
     overflow: hidden;
@@ -10,12 +10,12 @@
 }
 
 .contact.text {
-    background: rgb(26, 23, 23) 100%;
+    background: var(--sub-menu-color);
     display: flex;
     flex-direction: column;
     padding: 3rem;
     margin: auto;
-    box-shadow: 0 0 20px 10px #060606;
+    box-shadow: 0 0 20px 10px var(--shadow-color);
 }
 
 .contact.text h1 {
@@ -32,11 +32,11 @@
 
 .contact.email {
     text-decoration: none;
-    color:#868686;
+    color: var(--text-color);
 }
 
 .contact.email:hover {
-    color: ivory;
+    color: var(--hover-color);
     cursor: pointer;
     transition: all 0.5s ease;
 }
