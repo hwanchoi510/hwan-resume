@@ -9,7 +9,10 @@ export const Fox = {
     alt: 'fox',
     address1: 'https://github.com/hwanchoi510/FOX',
     address1icon: <i class="icon fab fa-github"/>,
-    address1description: `repository`
+    address1description: `repository`,
+    address2: 'https://hwanchoi510.itch.io/fox',
+    address1icon: <i class="fab fa-itch-io" />,
+    address2description: 'Game Demo'
 };
 
 export const FoxRun = {
