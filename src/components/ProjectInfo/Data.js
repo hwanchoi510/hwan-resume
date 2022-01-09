@@ -11,7 +11,7 @@ export const Fox = {
     address1icon: <i class="icon fab fa-github"/>,
     address1description: `repository`,
     address2: 'https://hwanchoi510.itch.io/fox',
-    address2icon: <i class="fab fa-itch-io" />,
+    address2icon: <i class="icon fab fa-itch-io" />,
     address2description: 'Game Demo'
 };
 
@@ -27,6 +27,9 @@ export const FoxRun = {
     address1: 'https://github.com/hwanchoi510/FOX-RUN',
     address1icon: <i class="icon fab fa-github"/>,
     address1description: 'repository'
+    address2: 'https://hwanchoi510.itch.io/fox-run',
+    address2icon: <i class="icon fab fa-itch-io" />,
+    address2description: 'Game Demo'
 };
 
 export const BangDB = {

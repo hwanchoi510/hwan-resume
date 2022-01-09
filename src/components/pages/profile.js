@@ -33,7 +33,7 @@ function profile() {
                     <br/>
                     <ul className='profile links list'>
                         <li><a href='https://github.com/hwanchoi510' target='_blank' rel='noreferrer'><i class="profile icon fab fa-github"/>Github</a></li>
-                        {/* <li><i class="profile icon fab fa-linkedin"/>LinkedIn</li> */}
+                        <li><a hred='https://hwanchoi510.itch.io/' target='_blank' rel='noreferrer'><i class="profile icon fab fa-itch-io"/>itch.io</a></li>
                         <li><a href={Resume} target='_blank' rel='noreferrer'><i class="profile icon fas fa-file-pdf"/>Resume</a></li>
                     </ul>    
                 </div>
