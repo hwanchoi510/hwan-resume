@@ -30,11 +30,31 @@ video {
 }
 
 @media screen and (max-width: 960px) {
+
+    .home-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-text {
+        position:absolute;
+        z-index: 1;
+        align-items: center;
+        text-align: center;
+    }
+
     h1 {
         font-size: 4rem ;
     }
 
     p {
         font-size: 2rem;
+    }
+
+    video {
+        position: absolute;
+        object-fit: cover;
+        width: 100%;
+        z-index: -1;
     }
 }

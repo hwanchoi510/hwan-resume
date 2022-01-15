@@ -6,7 +6,6 @@
     box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
     overflow: hidden;
-    overflow-y: hidden;
 }
 
 .contact.text {
@@ -39,4 +38,25 @@
     color: var(--hover-color);
     cursor: pointer;
     transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 960px) {
+
+    .contact.container {
+        overflow: hidden;
+    }
+
+    .contact.text {
+        height: 60%;
+        width: 80%;
+        margin: auto;
+    }
+
+    .contact.text h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+    .contact.list {
+        font-size: .5rem;
+    }
 }

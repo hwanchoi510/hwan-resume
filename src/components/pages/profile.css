@@ -56,3 +56,29 @@
 .profile.icon {
     margin-right: 10px;
 }
+
+@media screen and (max-width: 960px) {
+
+    .profile.container {
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+
+    .profile.text {
+        margin: auto;
+        padding: 40px;
+        padding-bottom: 100px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+    .profile.list {
+        flex-direction: column;
+    }
+
+    .profile.links.list {
+        flex-direction: row;
+    }
+    
+}

@@ -5,6 +5,11 @@ export const InfoContainer = styled.div`
     background: var(--main-bg-color);
     height: 90vh;
     width: 100%;
+
+    @media screen and (max-width: 960px) {
+        height: 80vh;
+        overflow-y: hidden;
+    }
 `
 
 export const InfoWrapper = styled.div`
@@ -19,6 +24,14 @@ export const InfoWrapper = styled.div`
     justify-content: center;
     border-radius: 60px;
     box-shadow: 0 0 20px 10px var(--shadow-color);
+
+    @media screen and (max-width: 960px) {
+        flex-direction: column;
+        border-radius: 30px;
+        margin: auto 20px;
+        padding: 24px 24px;
+        box-shadow: 0 0 0 0;
+    }
 `
 
 export const ImgWrapper = styled.div`
@@ -27,12 +40,19 @@ export const ImgWrapper = styled.div`
     padding: 7rem 2rem;
     width: 60%;
     height: 100%;
+
+    @media screen and (max-width: 960px) {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
 `
 
 export const Img = styled.img`
     width: 100%;
     height: 100%;
     border: 2px solid #262626;
+    border-radius: 30px;
 `
 
 export const TextWrapper = styled.div`
@@ -41,6 +61,11 @@ export const TextWrapper = styled.div`
     justify-content: flex-start;
     padding: 7rem .5rem;
     width: 40%;
+
+    @media screen and (max-width: 960px) {
+        padding: 1rem 0;
+        width: 100%;
+    }
 `
 
 export const ProjectType = styled.p`
@@ -50,6 +75,11 @@ export const ProjectType = styled.p`
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
+
+    @media screen and (max-width: 960px) {
+        font-size: 1rem;
+        text-align: center;
+    }
 `
 
 export const ProjectTitle = styled.h1`
@@ -57,11 +87,21 @@ export const ProjectTitle = styled.h1`
     line-height: 4rem;
     font-weight: 600;
     color: var(--card-text-color);
+    
+    @media screen and (max-width: 960px) {
+        font-size: 2rem;
+        text-align: center;
+    }
 `
 
 export const ProjectCode = styled.p`
     color: var(--card-text-color);
     font-size: 1.5rem;
+
+    @media screen and (max-width: 960px) {
+        font-size: 1rem;
+        text-align: center;
+    }
 `
 
 export const ProjectDesc = styled.p`
@@ -75,6 +115,11 @@ export const Addresses = styled.div`
     margin-top: auto;
     margin-bottom: 1rem;
     display: flex;
+
+    @media screen and (max-width: 960px) {
+        margin-bottom: auto;
+        margin-top: 1rem;
+    }
 `
 
 export const Address = styled.a`

@@ -19,13 +19,12 @@ function Project() {
 
     return (
         <div className='project container'>
-            <div className='project menu'>
-                <ul className='project menu list'>
-                    <h1>Projects</h1>
+            {/* <div className='project menu'> */}
+                <ul className='project menu'>
                     <li onClick={DisplayUnity2D}>Unity2D</li>
                     <li onClick={DisplayWebApp}>WebApps</li>
                 </ul>
-            </div>
+            {/* </div> */}
             <div className={showUnity2D ? 'project unity2d' : 'project unity2d unactive'}>
                 <ProjectInfo {...Fox}/>
                 <ProjectInfo {...FoxRun}/>
