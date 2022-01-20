@@ -16,7 +16,7 @@ export const InfoWrapper = styled.div`
     background: var(--card-color);
     display: flex;
     z-index: 0;
-    height: 70vh;
+    height: 75vh;
     width: 100%;
     max-width: 1200px;
     margin: auto;
@@ -39,12 +39,12 @@ export const ImgWrapper = styled.div`
     justify-content: center;
     padding: 7rem 2rem;
     width: 60%;
-    height: 100%;
 
     @media screen and (max-width: 960px) {
         padding: 0;
-        width: 100%;
-        height: 100%;
+        padding-top: 3vh;
+        width: 80%;
+        align-self: center;
     }
 `
 
@@ -91,6 +91,7 @@ export const ProjectTitle = styled.h1`
     @media screen and (max-width: 960px) {
         font-size: 2rem;
         text-align: center;
+        line-height: initial;
     }
 `
 
@@ -107,8 +108,9 @@ export const ProjectCode = styled.p`
 export const ProjectDesc = styled.p`
     color: var(--card-text-color);
     font-size: 1rem;
-    padding-top: 24px;
-    padding-bototm: 24px;
+    padding-top: 2vh;
+    padding-bototm: 2vh;
+
 `
 
 export const Addresses = styled.div`

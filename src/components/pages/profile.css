@@ -10,11 +10,14 @@
     overflow-y: hidden;
 }
 
-.img {
-    color:rgba(0, 0, 0);
-    position: absolute;
-    top: 98vh;
-    margin-left: 50px;
+.profile.img-container {
+    height: 100%;
+    object-fit: contain;
+}
+
+.profile-img {
+    height: 100%;
+
 }
 
 .profile.text {

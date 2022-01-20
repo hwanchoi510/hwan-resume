@@ -5,7 +5,9 @@ import Resume from './Resume_hwan510.pdf'
 function profile() {
     return (
         <div className='profile container'>
-            <img src='/images/profile.jpg' className='profile-img' alt="profile pic"/>
+            <div className='profile img-container'>
+                <img src='/images/profile.jpg' className='profile-img' alt="profile pic"/>
+            </div>
             <div className='profile text'>
                 <h1 className='profile name'>Hwan Choi</h1>
                 <div className='profile desc'>

@@ -3,7 +3,7 @@ export const Fox = {
     Type: 'Unity2D',
     Title: 'Fox',
     Codes: 'C#',
-    Description: `A 2D platformer game made with Unity. The fox has to collect all the fruits in the stage without getting killed by enemies.
+    Description: `A 2D platformer game made with Unity. The fox has to collect all the fruits in the stage without dying.
     The assets were acquired from the Unity Asset Store, only the coding was done by me.`,
     img: require('../images/fox.PNG'),
     alt: 'fox',
