@@ -5,10 +5,8 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
     overflow: hidden;
-    overflow-y: hidden;
 }
 
 .home-text {
@@ -52,9 +50,6 @@ video {
     }
 
     video {
-        position: absolute;
-        object-fit: cover;
         width: 100%;
-        z-index: -1;
     }
 }
