@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ProjectInfo from '../ProjectInfo'
-import { BangDB, Fox, FoxRun } from '../ProjectInfo/Data'
+import { BangDB, Fox, FoxRun, LoLTeamSearch } from '../ProjectInfo/Data'
 import './project.css'
 
 function Project() {
@@ -31,6 +31,7 @@ function Project() {
             </div>
             <div className={showWebApp ? 'project webapp' : 'project webapp unactive'}>
                 <ProjectInfo {...BangDB}/>
+                <ProjectInfo {...LoLTeamSearch}/>
             </div>
         </div>
     )

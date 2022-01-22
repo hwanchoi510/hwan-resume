@@ -47,3 +47,19 @@ export const BangDB = {
     address2icon: <i class="icon fas fa-link"/>,
     address2description: 'webapp'
 };
+
+export const LoLTeamSearch = {
+    id: 'LoLTeamSearch',
+    Type: 'Web/React',
+    Title: 'LoL Game Stat Search',
+    Codes: 'JavaScript, Html, CSS',
+    Description: `A webapp that can search the stats of all summoners in a summoner's current game made using official Riot Games API`,
+    img: require('../images/league_search.PNG'),
+    alt: 'LoL Search',
+    address1: 'https://github.com/hwanchoi510/league-team-search',
+    address1icon: <i class="icon fab fa-github"/>,
+    address1description: 'repository',
+    address2: 'https://lol-game-stat-search.netlify.app/',
+    address2icon: <i class="icon fas fa-link"/>,
+    address2description: 'webapp'
+}
