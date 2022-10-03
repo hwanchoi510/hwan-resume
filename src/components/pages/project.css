@@ -50,6 +50,15 @@
     display: none;
 }
 
+.project.android{
+    margin-left: 300px;
+    width: 100%;
+}
+
+.project.android.unactive {
+    display: none;
+}
+
 @media screen and (max-width: 960px) {
 
     .project.container {

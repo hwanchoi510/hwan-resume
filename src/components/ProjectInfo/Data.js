@@ -63,3 +63,19 @@ export const LoLTeamSearch = {
     address2icon: <i class="icon fas fa-link"/>,
     address2description: 'webapp'
 }
+
+export const Tender = {
+    id: 'Tender',
+    Type: 'Android',
+    Title: 'Tender',
+    Codes: 'Java',
+    Description: `An Android app for searching recipes in a method similar to that of Tinder. I mainly worked on frontend and a bit of backend`,
+    img: require('../images/bangdb.PNG'),
+    alt: 'tender',
+    address1: 'https://github.com/Hanmingaru/Capstone_Project',
+    address1icon: <i class="icon fab fa-github"/>,
+    address1description: 'repository',
+    address2: '',
+    address2icon: <i class="icon fas fa-link"/>,
+    address2description: 'webapp'
+}

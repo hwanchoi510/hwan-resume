@@ -35,10 +35,10 @@ function Navbar() {
                 </ul>
                 <a href ="mailto: abc@example.com" className='email-web'>EMAIL</a>
             </div>
-            <ul className={click ? 'nav-lang active' : 'nav-lang'}>
+            {/* <ul className={click ? 'nav-lang active' : 'nav-lang'}>
                 <li className='nav-lang-item'>EN</li>
                 <li className='nav-lang-item'>KR</li>    
-            </ul> 
+            </ul>  */}
         </nav>
     )
 }
