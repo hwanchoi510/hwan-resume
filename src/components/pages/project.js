@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from 'react/cjs/react.production.min';
 import ProjectInfo from '../ProjectInfo'
 import { BangDB, Fox, FoxRun, LoLTeamSearch, Tender } from '../ProjectInfo/Data'
 import './project.css'
@@ -13,18 +12,23 @@ function Project() {
         setUnity2D(true);
         setWebApp(false);
         setAndroid(false);
+        window.scrollTo(0, 0);
     }
 
     const DisplayWebApp = () => {
         setWebApp(true);
         setUnity2D(false);
         setAndroid(false);
+        window.scrollTo(0, 0);
+
     }
 
     const DisplayAndroid = () => {
         setWebApp(false);
         setUnity2D(false);
         setAndroid(true);
+        window.scrollTo(0, 0);
+
     }
 
     return (
